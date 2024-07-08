@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Background Geral */ 
+body {
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+} 
+
+/* Pills Color */
+h3{
+  color: #ffd900 ;
+}
+.Select-placeholder{
+  color: black;
+}
+.col-4 {
+  background-color: #00132d;
+  color: rgb(0, 0, 0);
+}
+.col-8 {
+  background-color: #011C40;
+  color: white;
+}
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link
+{color: rgb(255, 255, 255);
+  background-color: #bea100 ;
+}
+a#agenda_button{
+  background-color: #011C40;
+  color: white
+}
+a#reunioes_button{
+  background-color: #011C40;
+  color: white;
+}
+a#processo_button
+{
+  color: rgb(255, 255, 255);
+  background-color: #bea100 ;
+}
+a#lawyers_button{
+  color: rgb(255, 255, 255);
+  background-color: #bea100 ;
+}
+.nav-link.active{
+  color: rgb(255, 255, 255);
+  background-color: #bea100 ;
+}
+.dbc .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]) {
+  background-color: rgb(35, 36, 35);
+  color: #ffffff ;
+}
+body .dbc .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+  background-color: rgb(35, 36, 35);
+  color: #ffffff ;
+}
+body .dbc .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th {
+  background-color: rgb(35, 36, 35);
+  color: #ffffff ;
+}
+.modal-footer{
+  background-color: rgb(35, 36, 35);
+  color: #ffffff ;
+}
+.modal-header{
+  background-color: rgb(35, 36, 35);
+  color: #ffffff ;
+}
+.modal-body{
+  color: #000000 ;
+}
+.card{
+  background-color: rgb(35, 36, 35);
+  color: #ffffff ;
+}
+.card-body{
+  background-color: rgb(35, 36, 35);
+  color: #ffffff ;
+}
+.nav-pills .nav-link{
+  color: rgb(255, 255, 255);
+}
+div#page-content{
+  background-color: #00122a;
+}
+/* Textos gerais */
+.h1, .h2, .h4, .h5, .h6, h1, h2, h4, h5, h6 {
+  text-transform: none;
+  color: #ffd700;
+}
+
+
+/* Card Hover Animations */
+@keyframes border_in {
+  from {
+    border: 3px solid transparent;
+  }
+  to {
+    border: 3px solid yellow;
+  }
+}
+
+@keyframes border_out {
+  from {
+    border: 3px solid yellow;
+  }
+  to {
+    border: 3px solid transparent;
+  }
+}
+
+.card_padrao {
+  animation: border_out 1s;
+  animation-fill-mode: forwards;
+}
+
+.card_padrao:hover {
+  animation: border_in 0.5s;
+  animation-fill-mode: forwards;
+}
+button#view_modal {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
